@@ -57,21 +57,18 @@ def menu_arrays_y_tipos():
     describir_array(DIAS_MORA)
 
     # TODO: descomenta cuando hayas implementado crear_array_declaraciones
-    # lista = [1_200_000, 750_000, 3_100_000]
-    # arr = crear_array_declaraciones(lista)
-    # print(f"\n  Array creado desde lista: {arr}")
-    # print(f"  Tipo: {arr.dtype}")
+    lista = [1_200_000, 750_000, 3_100_000]
+    arr = crear_array_declaraciones(lista)
+    print(f"\n  Array creado desde lista: {arr}")
+    print(f"  Tipo: {arr.dtype}")
 
     # TODO: descomenta cuando hayas implementado comparar_lista_vs_array
-    # valores_lista = [1_500_000, 850_000, 2_300_000, 950_000]
-    # comparar_lista_vs_array(valores_lista)
+    valores_lista = [1_500_000, 850_000, 2_300_000, 950_000]
+    comparar_lista_vs_array(valores_lista)
 
     # TODO: descomenta cuando hayas implementado filtrar_valores_en_rango
-    # valores_lista = [1_500_000, 850_000, 2_300_000, 950_000, 0, 3_200_000]
-    # en_rango = filtrar_valores_en_rango(valores_lista, 500_000, 2_000_000)
-    # print(f"\n  Valores entre 500.000 y 2.000.000: {en_rango}")
-
-    print("\n  (función pendiente de implementar)")
+    
+    print("\n  función implementada")
 
 
 def menu_indexacion_slicing():
