@@ -58,6 +58,11 @@ def describir_array(arr):
         Mínimo  : 0.0
         Máximo  : 3200000.0
     """
+    print(f"  Forma   : {arr.shape}")
+    print(f"  Tipo    : {arr.dtype}")
+    print(f"  Mínimo  : {arr.min()}")
+    print(f"  Máximo  : {arr.max()}")
+
     # TODO: imprime forma con arr.shape, tipo con arr.dtype,
     #       mínimo con arr.min() y máximo con arr.max()
     pass

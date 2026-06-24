@@ -55,6 +55,8 @@ def describir_array(arr):
     print(f"  Tipo    : {arr.dtype}")
     print(f"  Mínimo  : {arr.min()}")
     print(f"  Máximo  : {arr.max()}")
+pass    
+
 
 
 def crear_array_declaraciones(valores_lista):
