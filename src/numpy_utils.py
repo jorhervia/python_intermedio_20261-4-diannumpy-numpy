@@ -5,8 +5,8 @@ Completa cada función siguiendo las instrucciones en los comentarios TODO.
 Cuando termines una función, ve a main.py, descomenta el bloque
 correspondiente y ejecuta python main.py para verificar tu resultado.
 
-Autora/Autor: [Tu nombre]
-Fecha: [Fecha de la sesión]
+Autora/Autor: [Jorge Enrique Hernández Viasús]
+Fecha: [24/06/2026]
 """
 
 import numpy as np
