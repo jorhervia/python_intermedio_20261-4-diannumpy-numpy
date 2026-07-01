@@ -76,18 +76,18 @@ def menu_indexacion_slicing():
     print("\n--- Indexación y slicing ---")
 
     # TODO: descomenta cuando hayas implementado obtener_rango
-    # rango = obtener_rango(VALORES_DECLARADOS, 2, 5)
-    # print(f"\n  Posiciones 2 a 4: {rango}")
+    rango = obtener_rango(VALORES_DECLARADOS, 2, 5)
+    print(f"\n  Posiciones 2 a 4: {rango}")
 
     # TODO: descomenta cuando hayas implementado obtener_ultimos
-    # ultimos = obtener_ultimos(VALORES_DECLARADOS, 3)
-    # print(f"\n  Últimos 3 valores: {ultimos}")
+    ultimos = obtener_ultimos(VALORES_DECLARADOS, 3)
+    print(f"\n  Últimos 3 valores: {ultimos}")
 
     # TODO: descomenta cuando hayas implementado invertir_array
-    # invertido = invertir_array(VALORES_DECLARADOS)
-    # print(f"\n  Array invertido: {invertido}")
+    invertido = invertir_array(VALORES_DECLARADOS)
+    print(f"\n  Array invertido: {invertido}")
 
-    print("\n  (función pendiente de implementar)")
+    print("\n  (función implementada 2)")
 
 
 def menu_vectorizacion():
@@ -95,21 +95,21 @@ def menu_vectorizacion():
     print("\n--- Vectorización ---")
 
     # TODO: descomenta cuando hayas implementado calcular_iva_todos
-    # iva = calcular_iva_todos(VALORES_DECLARADOS)
-    # print("\n  IVA por declaración:")
-    # for i, (nit, valor, monto_iva) in enumerate(
-    #         zip(NITS, VALORES_DECLARADOS, iva)):
-    #     print(f"  {nit} | ${valor:>12,.0f} | IVA: ${monto_iva:>10,.0f}")
+    iva = calcular_iva_todos(VALORES_DECLARADOS)
+    print("\n  IVA por declaración:")
+    for i, (nit, valor, monto_iva) in enumerate(
+            zip(NITS, VALORES_DECLARADOS, iva)):
+        print(f"  {nit} | ${valor:>12,.0f} | IVA: ${monto_iva:>10,.0f}")
 
     # TODO: descomenta cuando hayas implementado calcular_valor_con_iva
-    # con_iva = calcular_valor_con_iva(VALORES_DECLARADOS)
-    # print(f"\n  Primeros 3 valores con IVA: {con_iva[:3]}")
+    con_iva = calcular_valor_con_iva(VALORES_DECLARADOS)
+    print(f"\n  Primeros 3 valores con IVA: {con_iva[:3]}")
 
     # TODO: descomenta cuando hayas implementado redondear_a_miles
-    # redondeados = redondear_a_miles(VALORES_DECLARADOS * 1.19)
-    # print(f"\n  Valores con IVA redondeados a miles: {redondeados}")
+    redondeados = redondear_a_miles(VALORES_DECLARADOS * 1.19)
+    print(f"\n  Valores con IVA redondeados a miles: {redondeados}")
 
-    print("\n  (función pendiente de implementar)")
+    print("\n  (función implementada)")
 
 
 def menu_ufuncs():
