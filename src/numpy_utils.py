@@ -306,10 +306,6 @@ def redondear_a_miles(arr):
     valor_en_miles = arr / 1000
     miles_redondeados = np.round(valor_en_miles)
     return miles_redondeados * 1000
-
-    pass
-
-
 # ===========================================================================
 # SECCIÓN 4: FUNCIONES UNIVERSALES (UFUNCS)
 # ===========================================================================
